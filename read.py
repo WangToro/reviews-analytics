@@ -31,3 +31,8 @@ print('一共有', len(good), '筆留言裡面有good')
 print(good[0])
 print(good[1])
 
+good = [1 for d in data if 'good' in d]
+print(good)
+
+bad = ['bad' in d for d in data]
+print(bad)
